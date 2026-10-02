@@ -11,7 +11,7 @@ namespace TrackThreadApp
 
             for (int LoopCount = 0; LoopCount <= 2; LoopCount++)
             {
-                Console.WriteLine("Name of Thread: \n" + thread.Name + " Process = " + LoopCount);
+                Console.WriteLine("Name of Thread: " + thread.Name + " Process = " + LoopCount);
                 Thread.Sleep(500); 
             }
         }
@@ -22,7 +22,7 @@ namespace TrackThreadApp
 
             for (int LoopCount = 0; LoopCount <= 5; LoopCount++)
             {
-                Console.WriteLine("Name of Thread: \n" + thread.Name + " Process = " + LoopCount);
+                Console.WriteLine("Name of Thread: " + thread.Name + " Process = " + LoopCount);
                 Thread.Sleep(1500); 
             }
         }
