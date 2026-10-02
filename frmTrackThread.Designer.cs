@@ -33,7 +33,6 @@
             // 
             // lblStatus
             // 
-            lblStatus.AutoSize = true;
             lblStatus.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblStatus.Location = new Point(94, 81);
             lblStatus.Margin = new Padding(4, 0, 4, 0);
@@ -41,6 +40,7 @@
             lblStatus.Size = new Size(162, 25);
             lblStatus.TabIndex = 1;
             lblStatus.Text = "-Thread Starts -";
+            lblStatus.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // frmTrackThread
             // 
@@ -53,7 +53,6 @@
             Name = "frmTrackThread";
             Text = "frmTrackThread";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         private System.Windows.Forms.Button btnRun;
